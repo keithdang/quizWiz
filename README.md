@@ -14,6 +14,7 @@ Steps required
 * mongoURI<br />
 * cookieKey<br />
 2. In the terminal execute <br />
+```npm install``` <br />
 ```npm install --save less less-loader``` <br />
 ```npm run dev``` <br />
 [Check out the site!](https://quizwizkd.herokuapp.com/#)
