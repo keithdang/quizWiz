@@ -26,8 +26,8 @@ class Header extends Component {
       <nav>
         <div className="nav-wrapper quizHead">
           <Link
-            //to="/"
-            to={auth && auth.submitted ? "/results" : "/"}
+            to="/"
+            // to={auth && auth.submitted ? "/results" : "/"}
             className="left brand-logo"
           >
             QuizWiz

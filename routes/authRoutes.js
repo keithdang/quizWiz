@@ -10,12 +10,12 @@ module.exports = app => {
     "/auth/google/callback",
     passport.authenticate("google"),
     (req, res) => {
-      if (req.user.submitted.length > 0) {
-        res.redirect("/results");
-      } else {
-        res.redirect("/");
-      }
-      //res.redirect("/");
+      // if (req.user.submitted.length > 0) {
+      //   res.redirect("/results");
+      // } else {
+      //   res.redirect("/");
+      // }
+      res.redirect("/");
     }
   );
 
